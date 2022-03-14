@@ -1,6 +1,6 @@
 "use strict";
 
-var Models = require("../models");
+var Models = require("../models");``
 
 const getUsers = (res) => {
     Models.Users.findAll({}).then(function (data) {
