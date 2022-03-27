@@ -20,6 +20,9 @@ app.use('/api/posts',postRoute)
 let commentRoute = require('./routes/commentRoute')
 app.use('/api/comments',commentRoute)
 
+let weatherRoute = require('./routes/weatherRoute')
+app.use('/api/weather',weatherRoute)
+
 
 app.get("/test", function (request, response) {
   var user_name = request.query.user_name;
